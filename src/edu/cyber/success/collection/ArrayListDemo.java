@@ -32,14 +32,14 @@ public class ArrayListDemo {
 			System.out.print(list.get(i) + " ");
 		}
 		
-		/*list.add(3,10);
+		list.add(3,10);
 		
 		System.out.println("");
 		
-		// iterating with for each loop
+		// iterating with enhance for loop
 		for(Integer num : list){
 			System.out.print(num + " ");
-		}*/
+		}
 			
 	}
 

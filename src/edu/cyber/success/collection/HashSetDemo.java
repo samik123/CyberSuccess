@@ -16,7 +16,8 @@ public class HashSetDemo {
 		set.add("Five");  
 
 		//iterating set elements
-		Iterator<String> i=set.iterator();  
+		Iterator<String> i = set.iterator();  
+
 		while(i.hasNext()) {  
 			System.out.println(i.next());  
 		}  

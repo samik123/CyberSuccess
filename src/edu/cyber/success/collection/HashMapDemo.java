@@ -10,17 +10,17 @@ public class HashMapDemo {
 		// Create a HashMap object called capitalCities
 		Map<String,String> stateCapMap=new HashMap<String,String>();
 
-		// Add keys and values (Country, City)
+		// Add keys and values (State, City)
 		stateCapMap.put("Maharashtra","Mumbai");
-		stateCapMap.put("West Bengal","Kolkata");
+		stateCapMap.put("West Begnal","Kolkata");
 		stateCapMap.put("Odisha","Bhubaneswar");
 		stateCapMap.put("Tamilnadu","Chennai");
 		//System.out.println(stateCapMap);
 
 		//ACCESS SINGLE ITEM
-		//System.out.println(stateCapMap.get("Maharashtra"));
+		//System.out.println(stateCapMap.get("Odisha"));
 
-		//REMOVE ALL ITEM
+		//REMOVE ALL ITEMS
 		/*stateCapMap.clear();
 		System.out.println(stateCapMap);*/
 
@@ -33,14 +33,14 @@ public class HashMapDemo {
 		}*/
 
 		// Print values
-		/*for(String cap:stateCapMap.values()){
-		System.out.println(cap);
+		/*for(String cap : stateCapMap.values()){
+			System.out.println(cap);
 		}*/
 		
 
 		// Print keys and values
 		/*for(String state:stateCapMap.keySet()){
-		System.out.println("key: "+state+" value: "+stateCapMap.get(state));
+			System.out.println("key: "+state+" value: "+stateCapMap.get(state));
 		}*/
 		
 		//KEY SHOULD BE UNIQUE OVER HASHMAP
